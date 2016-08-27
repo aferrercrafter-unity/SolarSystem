@@ -13,7 +13,6 @@ public class Rotation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Rotate(rotate_speed_x,rotate_speed_y,0);
-        transform.RotateAround(new Vector3(-20,0,0), new Vector3(0,1,0), rotate_speed_y);
+        transform.Rotate(rotate_speed_x,rotate_speed_y,0);        
 	}
 }
